@@ -1,0 +1,27 @@
+{
+  "name": "virtual-ndo",
+  "version": "0.1.0",
+  "description": "Web app to replicate the Tracksmith No Days Off calendar",
+  "main": "ndo/templates/calendar2020.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ".git"
+  },
+  "author": "Sean Fischer",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
+}
